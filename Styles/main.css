@@ -1,0 +1,313 @@
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif sans-serif;
+  margin: 0;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Main Section */
+.main-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 400px;
+  vertical-align: top;
+  position: relative;
+}
+
+
+.main-section__info {
+   padding-left: 60px;
+   padding-top: 60px;
+}
+
+.main-section__welcome {
+  font-size: 50px;
+  font-family: ARial;
+  width: 500px;
+}
+
+
+.main-section__intro {
+  width: 600px;
+  font-weight: 400px;
+  font-family: Arial;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.main-section__action  {
+  background-color: rgb(10, 10, 100);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opactiy 0.2;
+}
+
+.main-section__action:hover {
+  opacity: 0.9;
+}
+
+
+.main-section__image-container {
+  position: absolute;
+  top: -100px;
+  right: 0;
+}
+
+/* Video section */
+.video-section {
+  display: flex;
+  padding: 200px 80px;
+  background-color: rgb(10, 10, 100);
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin-bottom: 500px;
+  position: relative;
+
+}
+
+.abstarct-icon__container {
+  position: absolute;
+  bottom: -400px;
+  left: 340px;
+}
+/* /Video section */
+
+
+/* About section */
+
+.about-project {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: rgb(10, 10, 100);
+  color: white;
+  padding: 100px 80px;
+  border-radius: 25px;
+
+}
+
+.about-project__info {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.about-project__title {
+  font-size: 40px;
+  margin-bottom: 25px;
+  
+}
+
+.about-project__description {
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.about-project__image {
+  position: absolute;
+  top: -220px;
+  right: 35px;
+}
+
+
+/* Advantages audiobook section */
+.advantages-aubiobook {
+  position: relative;
+  display: flex;
+  margin-top: 300px;
+  margin-bottom: 250px;
+ }
+
+
+.audiobook-icon__container {
+  position: absolute;
+  bottom: 0px;
+}
+.advantages-audiobook__info {
+  position: absolute;
+  width: 600px;
+   padding-left: 100px;
+  right: -80px;
+  top: 100px;
+ 
+}
+
+.advantages-audiobook__title {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.advantages-audiobook__description {
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0;
+  font-weight: 500;
+}
+
+
+/* Payment section */
+.payment-section {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: rgb(249,224,199);
+  padding: 100px 80px;
+  border-radius: 25px;
+  margin-bottom: 300px;
+}
+
+
+.payment-section__title {
+  font-size: 30px;
+}
+
+.payment-section__description {
+  font-size: 20px;
+  width: 520px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment-section__image-container {
+  position: absolute;
+  top: -220px;
+  right: 35px;
+  
+}
+
+.payment-abstract-icon {
+  position: absolute;
+  bottom: -200px;
+  right: 0;
+}
+
+
+
+/* Download section */
+.download-section {
+  position: relative;
+  display: flex;
+  background-color: rgb(248,248,248);
+  align-items: center;
+  border-radius: 25px;
+  padding-left: 30px;
+  margin-bottom: 300px;
+}
+
+.download-section__info {
+  position: absolute;
+  right: 100px;
+}
+
+
+.download-section__title {
+  font-size: 40px;
+  width: 500px;
+}
+
+
+.google-play {
+  margin-right: 20px;
+}
+
+.download-abstarct-icon__container {
+  position: absolute;
+  bottom: -30px;
+  left: -150px;
+}
+
+
+/* Footer section */
+footer {
+ display: flex;  
+ flex-direction: row;
+ row-gap: 50;
+ margin-left: 130px;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-bottom: 30px;
+ vertical-align: top;
+ 
+}
+
+.left-section {
+  margin-right: 200px;
+  color: gray;
+  font-size: 15px;
+}
+
+.tingla-logo-icon {
+  margin-bottom: 25px;
+  padding-top: 8px;
+ }
+
+.middle-section {
+  margin-right: 200px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.right-section {
+  padding-top: 8px;
+}
+
+.phone-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.fa-phone {
+  margin-right: 15px;
+}
+
+ 
+
+.phone-info {
+  
+}
+
+.phone-title {
+  font-size: 15px;
+  color: gray;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.phone-number {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+
+.fa-telegram {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.fa-instagram {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.fa-facebook {
+  font-size: 24px;
+}
